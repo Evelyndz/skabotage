@@ -1,0 +1,159 @@
+/* ----- header & nav ------ */
+header, main, footer {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+  height: 100px;
+  width: 90%;
+  position: fixed;
+  background-color: white;
+  opacity: .95;
+  padding-top: 50px;
+  margin-top: -30px;
+}
+.logo img {
+    width: 100px;
+    max-width: 100px;
+    height: 100px;
+    overflow: auto;
+    float: left;
+    opacity: 1;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    font-size: 130%;
+    font-family: calibri;
+    font-weight: 800;
+    color: black;
+    margin: 0px 15px 5px 15px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+a:hover {
+    border: 5px solid #f6a43a;
+    color: #f6a43a;
+}
+#label{
+  border: 5px solid #f6a43a;
+  color: #f6a43a;
+}
+/*----- main ----- */
+
+main{
+	height: 1200px;
+  padding-top: 200px;
+}
+.kader{
+  position: relative;
+  /*width: 200px;
+  height: 200px;*/
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f6a43a;
+  opacity: 0.4;
+  /*left: 1170px;
+  top: 150px;*/
+  left: 300px;
+  top: 50px;
+  z-index: -1;
+}
+h1{
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  float:right;
+  opacity: 0.1;
+  /*color: #f6a43a;*/
+  margin-top: -130px;
+  display: none;
+}
+h2{
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+.text{
+  width: 50%;
+  margin: auto;
+}
+.text p{
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  line-height: 1.5em;
+}
+
+/*---- form -----*/
+h4{
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 50px;
+}
+input{
+  margin: 20px 40px 0px 0;
+  font-size: 1em;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  width: 130px;
+  padding: 10px;
+}
+input:nth-child(2){
+  width: 180px;
+}
+input[type=text]:focus{
+}
+#mailaddress{
+  width: 380px;
+}
+textarea{
+  height: 200px;
+  width: 382px;
+  margin-top: 20px;
+  padding: 10px;
+  border-color: lightgrey;
+  font-size: 1em;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+}
+input[type=submit]{
+  color: black;
+  font-size: 1em;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  background-color: silver;
+  border:none;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: rgba(246, 164, 58, .5);
+}
+/*---- footer ----*/
+.kleurfooter{
+  background-color: rgba(246, 164, 58, .5);
+  height: 200px;
+}
+footer{
+  width: 100%;
+}
+.textfooter{
+  width: 60%;
+  margin: auto;
+  font-family: 'montserrat';
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+}
+footer p{
+  padding-top: 60px;
+  font-size: .8em;
+  line-height: 2em;
+}
