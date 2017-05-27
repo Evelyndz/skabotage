@@ -233,7 +233,7 @@ p:last-child{
     width: 20%;
     }
 }
-@media(max-width:1048px) {
+@media(max-width:1085px) {
   a{
     font-size: 100%;
   }
