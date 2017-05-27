@@ -144,8 +144,10 @@ footer p:last-child{
 
 /* Media Queries */
 
-@media(max-width:1440px){
-
+@media(max-width:1280px){
+ #drie{
+   top: 350px;
+ }
 }
 @media(max-width:1180px){
   .logo img{
@@ -300,7 +302,7 @@ footer p:last-child{
   .kleurfooter{
     height: 150px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 10px;
   }
 }
@@ -308,8 +310,8 @@ footer p:last-child{
 @media(max-width:500px){
   a{
     font-size: 80%;
-    margin-right: 5px;
-    padding: 5px;
+    margin-right: 3px;
+    padding: 3px;
   }
   header{
     padding-bottom:0px;
@@ -324,7 +326,19 @@ footer p:last-child{
   .kleurfooter{
     height: 150px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 10px;
+  }
+}
+@media(max-width:400px){
+  main{
+    height: 1600px;
+  }
+  a{
+    margin-right: 1px;
+    border-width: 4px;
+  }
+  a:hover, #artist{
+    border-width: 4px;
   }
 }

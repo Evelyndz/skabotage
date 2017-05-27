@@ -253,7 +253,7 @@ main{
   .kleurfooter{
     height: 150px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 10px;
   }
 }
@@ -273,7 +273,7 @@ main{
   .kleurfooter{
     height: 150px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 10px;}
   .kader{
     left: .8%;
@@ -283,5 +283,15 @@ main{
   }
   input,  input:nth-child(2), #mailaddress, textarea, input[type=submit]{
     width: 80%;
+  }
+}
+@media(max-width:400px){
+  a{
+    margin-right: 1px;
+    border-width: 4px;
+  }
+  a:hover, #label{
+    border-width: 4px;
+
   }
 }

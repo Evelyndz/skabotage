@@ -306,7 +306,7 @@ aside{
   .kleurfooter{
     height: 150px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 10px;}
   .kader{
     left: .8%;

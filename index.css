@@ -314,16 +314,16 @@ p:last-child{
   .kleurfooter{
     height: 100px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 20px;
   }
 }
 
 @media(max-width:500px){
   a{
-    font-size: 60%;
-    margin-right: 5px;
-    padding: 5px;
+    font-size: 80%;
+    margin-right: 3px;
+    padding: 3px;
   }
   header{
     padding-bottom:0px;
@@ -356,7 +356,17 @@ p:last-child{
   .kleurfooter{
     height: 100px;}
 
-  p:last-child{
+  footer p:last-child{
     padding-top: 20px;
+  }
+}
+@media(max-width:400px){
+  a{
+    margin-right: 1px;
+    border-width: 4px;
+  }
+  a:hover, #home{
+    border-width: 4px;
+
   }
 }
