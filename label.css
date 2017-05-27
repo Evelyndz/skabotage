@@ -61,7 +61,7 @@ main{
   opacity: 0.4;
   /*left: 1170px;
   top: 150px;*/
-  left: 300px;
+  left: 22.5%;
   top: 50px;
   z-index: -1;
 }
@@ -109,8 +109,6 @@ input{
 input:nth-child(2){
   width: 180px;
 }
-input[type=text]:focus{
-}
 #mailaddress{
   width: 380px;
 }
@@ -156,4 +154,134 @@ footer p{
   padding-top: 60px;
   font-size: .8em;
   line-height: 2em;
+}
+
+/* Media Queries */
+
+@media(max-width:1440px){
+main{
+  height: 1100px;
+}
+}
+@media(max-width:1180px){
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+  a{
+    font-size: 110%;
+  }
+  main{
+    height: 1200px;
+  }
+.kader{
+  left:
+}
+}
+@media(max-width:1048px) {
+  a{
+    font-size: 100%;
+  }
+  .text p{
+    font-size: .9em;
+  }
+  .text{
+    width: 65%;
+  }
+  .kader{
+    left: 14%;
+  }
+  main{
+    height: 1000px;
+  }
+}
+@media(max-width: 1005px){
+  a{ font-size: 85%;
+    margin: 0px 5px 5px 5px;
+}
+  .logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+  }
+  .kader{
+    left: 1.5%;
+  }
+  .text{
+    width: 90%;
+  }
+  header{
+    width: 100%;
+  }
+}
+@media(max-width:910px){
+ main{
+   width: 100%;
+ }
+}
+@media(max-width:750px){
+    .logo img{
+      display: none;
+      }
+    a{
+      margin-right: 20px;
+      }
+    main{
+      padding-top: 75px;
+      }
+      .image{
+        top: 620px;
+      }
+      iframe{
+        top: 850px;
+        height: 200px;
+      }
+    }
+
+@media(max-width:600px){
+  a{
+    font-size: 80%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  header{
+    padding-bottom:0px;
+  }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;
+  }
+}
+
+@media(max-width:500px){
+  a{
+    font-size: 80%;
+    margin-right: 3px;
+    padding: 3px;
+}
+  header{
+    padding-bottom:0px;
+  }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;}
+  .kader{
+    left: .8%;
+  }
+  main{
+    height: 1200px;
+  }
+  input,  input:nth-child(2), #mailaddress, textarea, input[type=submit]{
+    width: 80%;
+  }
 }

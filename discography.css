@@ -64,7 +64,7 @@ main{
 }
 #een, #twee, #drie{
   top: 50px;
-  left: -30px;
+  left: -3%;
 }
 .overzicht{
   width: 80%;
@@ -116,7 +116,8 @@ h2{
 
 .product:hover {
   -webkit-transform: rotateY( 180deg );
-          transform: rotateY( 180deg );}
+          transform: rotateY( 180deg );
+        cursor: zoom-in;}
 /*---- footer ----*/
 .kleurfooter{
   background-color: rgba(246, 164, 58, .5);
@@ -137,4 +138,120 @@ p:last-child{
   padding-top: 60px;
   font-size: .8em;
   line-height: 2em;
+}
+
+/* Media Queries */
+
+@media(max-width:1440px){
+
+}
+@media(max-width:1180px){
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+  a{
+    font-size: 110%;
+  }
+}
+@media(max-width:1048px) {
+  a{
+    font-size: 100%;
+  }
+  .product{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media(max-width: 1005px){
+  a{ font-size: 85%;
+    margin: 0px 5px 5px 5px;
+}
+  .logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+  }
+}
+@media(max-width:910px){
+ main{
+   width: 100%;
+ }
+}
+@media(max-width:750px){
+    header{
+      width: 100%;
+    }
+    .logo img{
+      display: none;
+      }
+    a{
+      margin-right: 20px;
+      }
+    main{
+      padding-top: 75px;
+      }
+    }
+
+@media(max-width:600px){
+  a{
+    font-size: 80%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  header{
+    padding-bottom:0px;
+  }
+  .product{
+    width: 60%;
+    margin-left: 15%;
+  }
+  .downskalers, .northernstar, .suits{
+    height: 1300px;
+    margin-bottom: 100px;}
+    main{
+      height: 4400px;
+    }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;
+  }
+  #een, #twee, #drie{
+    left: -7%;
+  }
+}
+
+@media(max-width:500px){
+  a{
+    font-size: 80%;
+    margin-right: 3px;
+    padding: 3px;
+}
+  header{
+    padding-bottom:0px;
+  }
+  .product{
+    margin-bottom: 250px;
+  }
+  .downskalers, .suits, .northernstar{
+    height: 1000px;
+  }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;
+  }
+  #een, #twee, #drie{
+    left: -10%;
+  }
 }

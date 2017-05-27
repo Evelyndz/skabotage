@@ -53,15 +53,11 @@ main{
 }
 .kader{
   position: relative;
-  /*width: 200px;
-  height: 200px;*/
   width: 50px;
   height: 50px;
   border: 10px solid #f6a43a;
   opacity: 0.4;
-  /*left: 1170px;
-  top: 150px;*/
-  left: 500px;
+  left: 37%;
   top: 50px;
   z-index: -1;
 }
@@ -114,7 +110,7 @@ h3{
 }
 iframe{
   position: absolute;
-  right: 200px;
+  right: 12%;
   top: 820px;
 }
 #adres{
@@ -141,4 +137,167 @@ footer p{
   padding-top: 60px;
   font-size: .8em;
   line-height: 2em;
+}
+
+/* Media Queries */
+
+@media(max-width:1440px){
+.image{
+  width: 35%;
+}
+iframe{
+  top: 910px;
+  right: 10%;
+}
+main{
+  height: 1100px;
+}
+}
+@media(max-width:1180px){
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+  a{
+    font-size: 110%;
+  }
+  iframe{
+    top: 1030px;
+    right: 5%;
+    width: 30%;
+  }
+  main{
+    height: 1200px;
+  }
+
+}
+@media(max-width:1048px) {
+  a{
+    font-size: 100%;
+  }
+  .text{
+    width: 60%;
+    margin-right: 2%;
+  }
+  .text p{
+    font-size: .9em;
+  }
+  iframe{
+    top: 850px;
+  }
+  main{
+    height: 1000px;
+  }
+}
+@media(max-width: 1005px){
+  a{ font-size: 85%;
+    margin: 0px 5px 5px 5px;
+}
+  .logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+  }
+  .kader{
+    left: 5%;
+  }
+  .text{
+    width: 90%;
+  }
+  .image{
+    width: 45%;
+    float: none;
+    position: absolute;
+    left: 50%;
+    top: 685px;
+  }
+  iframe{
+    right: 62%;
+    top: 900px;
+  }
+  header{
+    width: 100%;
+  }
+}
+@media(max-width:910px){
+ main{
+   width: 100%;
+ }
+}
+@media(max-width:750px){
+    .logo img{
+      display: none;
+      }
+    a{
+      margin-right: 20px;
+      }
+    main{
+      padding-top: 75px;
+      }
+      .image{
+        top: 620px;
+      }
+      iframe{
+        top: 850px;
+        height: 200px;
+      }
+    }
+
+@media(max-width:600px){
+  a{
+    font-size: 80%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  header{
+    padding-bottom:0px;
+  }
+  .text{
+    margin-right: 5%;
+  }
+  .image{
+    top: 720px;
+  }
+  iframe{
+    top: 870px;
+  }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;
+  }
+}
+
+@media(max-width:500px){
+  a{
+    font-size: 80%;
+    margin-right: 3px;
+    padding: 3px;
+}
+  header{
+    padding-bottom:0px;
+  }
+  .image{
+    display: none;
+  }
+  iframe{
+    right: 10%;
+    top: 800px;
+    width: 35%;
+  }
+  .textfooter{
+    font-size: 1em;
+  }
+  .kleurfooter{
+    height: 150px;}
+
+  p:last-child{
+    padding-top: 10px;}
+  .kader{
+    left: .8%;
+  }
 }
