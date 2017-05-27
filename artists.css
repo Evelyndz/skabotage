@@ -143,8 +143,12 @@ footer p:last-child{
 }
 
 /* Media Queries */
-
-@media(max-width:1280px){
+@media(min-width:1900px){
+  #drie{
+    top: 340px;
+  }
+}
+@media(max-width:1300px){
  #drie{
    top: 350px;
  }
@@ -325,7 +329,7 @@ footer p:last-child{
   }
   main{
     width: 100%;
-    height: 1300px;
+    height: 1350px;
   }
   .textfooter{
     font-size: 1em;
