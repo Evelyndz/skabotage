@@ -180,6 +180,13 @@ footer p:last-child{
     top: 370px;
   }
 }
+@media(max-width:1110px){
+  .twee img{
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+
+}
 @media(max-width:1048px) {
   a{
     font-size: 100%;
@@ -263,7 +270,7 @@ footer p:last-child{
     }
     }
 
-@media(max-width:600px){
+@media(max-width:650px){
   a{
     font-size: 80%;
     margin-right: 10px;
