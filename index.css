@@ -223,6 +223,11 @@ footer a img{
 }
 
 /* Media Queries */
+@media(min-width: 1920px){
+  main{
+    height: 1400px;
+  }
+}
 
 @media(max-width:1440px){
   .slideshow-container{

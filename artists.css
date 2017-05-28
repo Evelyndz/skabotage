@@ -165,9 +165,13 @@ footer a img{
   margin-right: 5%;
 }
 /* Media Queries */
+
 @media(min-width:1900px){
   #drie{
     top: 340px;
+  }
+  main{
+    height: 1400px;
   }
 }
 @media(max-width:1300px){

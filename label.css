@@ -179,7 +179,11 @@ footer a img{
   margin-right: 5%;
 }
 /* Media Queries */
-
+@media(min-width: 1900px){
+  main{
+    height: 1400px;
+  }
+}
 @media(max-width:1440px){
 main{
   height: 1100px;

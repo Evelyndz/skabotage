@@ -163,6 +163,11 @@ footer a img{
   margin-right: 5%;
 }
 /* Media Queries */
+@media(min-width: 1920px){
+  main{
+    height: 2700px;
+  }
+}
 
 @media(max-width:1440px){
 

@@ -179,7 +179,12 @@ footer a img{
 }
 
 /* Media Queries */
-@media(max-width:1550px){
+@media(min-width: 1920px){
+  main{
+    height: 1400px;
+  }
+}
+@media(max-width:1575px){
   .overzicht{
     width: 75%;
   }
