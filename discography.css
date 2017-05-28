@@ -129,22 +129,53 @@ footer{
 .textfooter{
   width: 60%;
   margin: auto;
+  position: relative;
+  top: -50px;
   font-family: 'montserrat';
   font-size: 1em;
   font-weight: 100;
   text-align: center;
 }
-p:last-child{
-  padding-top: 60px;
+footer p{
+  padding-top: 0px;
   font-size: .8em;
   line-height: 2em;
 }
-
+.socials{
+  position: relative;
+  width: 10%;
+  left: 43%;
+  bottom: 0px;
+}
+#youtube{
+left: 47%;
+bottom: 77px;
+}
+footer a{
+  border: none;
+  width: 100px;
+}
+footer a:hover{
+  border: none;
+}
+footer a img{
+  width: 60%;
+  margin-right: 5%;
+}
 /* Media Queries */
 
 @media(max-width:1440px){
 
 }
+@media(max-width: 1205px){
+  .socials{
+    left: 44%;
+  }
+  #youtube{
+    left: 49%;
+  }
+}
+
 @media(max-width:1180px){
   .logo img{
     width: 100px;
@@ -173,6 +204,12 @@ p:last-child{
     height: 80px;
     margin-left: 60px;
   }
+  .socials{
+    left: 44%;
+  }
+  #youtube{
+    left: 50%;
+  }
 }
 @media(max-width:910px){
  main{
@@ -191,6 +228,14 @@ p:last-child{
       }
     main{
       padding-top: 75px;
+      }
+      .socials{
+        width: 7%;
+        left: 47%;
+      }
+      #youtube{
+        bottom: 72px;
+        left: 57%;
       }
     }
 
@@ -246,7 +291,7 @@ p:last-child{
     font-size: 1em;
   }
   .kleurfooter{
-    height: 150px;}
+    height: 200px;}
 
   footer p:last-child{
     padding-top: 10px;
@@ -265,5 +310,12 @@ p:last-child{
   }
   main{
     height:3700px;
+  }
+  .socials{
+    left: 50%;
+  }
+  #youtube{
+    left: 70%;
+    bottom: 69px;
   }
 }

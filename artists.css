@@ -131,17 +131,39 @@ footer{
 .textfooter{
   width: 60%;
   margin: auto;
+  position: relative;
+  top: -50px;
   font-family: 'montserrat';
   font-size: 1em;
   font-weight: 100;
   text-align: center;
 }
-footer p:last-child{
-  padding-top: 60px;
+footer p{
+  padding-top: 0px;
   font-size: .8em;
   line-height: 2em;
 }
-
+.socials{
+  position: relative;
+  width: 10%;
+  left: 43%;
+  bottom: 0px;
+}
+#youtube{
+left: 47%;
+bottom: 77px;
+}
+footer a{
+  border: none;
+  width: 100px;
+}
+footer a:hover{
+  border: none;
+}
+footer a img{
+  width: 60%;
+  margin-right: 5%;
+}
 /* Media Queries */
 @media(min-width:1900px){
   #drie{
@@ -152,6 +174,14 @@ footer p:last-child{
  #drie{
    top: 350px;
  }
+}
+@media(max-width: 1205px){
+  .socials{
+    left: 44%;
+  }
+  #youtube{
+    left: 49%;
+  }
 }
 @media(max-width:1180px){
   .logo img{
@@ -232,6 +262,12 @@ footer p:last-child{
   #drie{
     top: 410px;
   }
+  .socials{
+    left: 44%;
+  }
+  #youtube{
+    left: 52%;
+  }
 }
 @media(max-width:910px){
  .artiest img{
@@ -271,6 +307,14 @@ footer p:last-child{
       }
     .twee img{
       margin-top: 60px;
+    }
+    .socials{
+      width: 7%;
+      left: 47%;
+    }
+    #youtube{
+      bottom: 72px;
+      left: 57%;
     }
     }
 
@@ -335,7 +379,7 @@ footer p:last-child{
     font-size: 1em;
   }
   .kleurfooter{
-    height: 150px;}
+    height: 200px;}
 
   footer p:last-child{
     padding-top: 10px;
@@ -351,5 +395,12 @@ footer p:last-child{
   }
   a:hover, #artist{
     border-width: 4px;
+  }
+  .socials{
+    left: 50%;
+  }
+  #youtube{
+    left: 70%;
+    bottom: 69px;
   }
 }
